@@ -1,0 +1,16 @@
+{% load static %}
+
+<!-- /path/to/your/project/easyApplyWebServer/templates/welcome.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'authentication/css/style.css' %}">
+</head>
+<body>
+    <div id="welcome-text">Welcome to EasyApply Web Server!</div>
+    <script src="{% static 'authentication/js/animation.js' %}"></script>
+    <img src="{% static 'authentication/img/logo.png' %}" alt="EasyApplyHub" style="width: 271px; height: 170px; object-fit: contain; object-position: center center;" width="271" height="170" fetchpriority="high">
+</body>
+</html>
